@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
-# Recentf plugin for Textbringer
-# Provides Emacs-like recent file history functionality
+require_relative "recentf/version"
 
 module Textbringer
   CONFIG[:recentf_max_items] = 100

@@ -2,12 +2,39 @@
 
 Emacs-like recent file history plugin for [Textbringer](https://github.com/shugo/textbringer).
 
+## Dependencies
+
+- [textbringer](https://github.com/shugo/textbringer) >= 1.4
+- [textbringer-minibuffer-extension](https://github.com/kurod1492/textbringer-minibuffer-extension) >= 0.1.0
+
 ## Installation
+
+### Via RubyGems
+
+```bash
+gem install textbringer-recentf
+```
+
+### Via Bundler
+
+Add this line to your Gemfile:
+
+```ruby
+gem 'textbringer-recentf'
+```
+
+Then execute:
+
+```bash
+bundle install
+```
+
+### Manual Installation
 
 Clone this repository to your Textbringer plugins directory:
 
 ```bash
-git clone https://github.com/kurod1492/textbringer-recentf.git ~/.textbringer/plugins/recentf
+git clone https://github.com/kurod1492/textbringer-recentf.git ~/.textbringer/plugins/textbringer-recentf
 ```
 
 ## Configuration
