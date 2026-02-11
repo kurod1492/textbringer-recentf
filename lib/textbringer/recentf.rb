@@ -72,6 +72,7 @@ module Textbringer
     file = read_from_minibuffer("Recent file: ",
                                 completion_proc: completion_proc,
                                 history: list)
+    MinibufferHistory.add(:file, file) if defined?(MinibufferHistory)
     find_file(file)
   end
 
