@@ -2,6 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "textbringer-minibuffer-extension", git: "https://github.com/kurod1492/textbringer-minibuffer-extension.git"
+gem "textbringer-minibuffer-extension"
 
 gemspec
