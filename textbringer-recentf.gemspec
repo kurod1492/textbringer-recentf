@@ -14,6 +14,7 @@ Gem::Specification.new do |spec|
   spec.description   = "Provides Emacs-like recent file history functionality for Textbringer."
   spec.homepage      = "https://github.com/kurod1492/textbringer-recentf"
   spec.license       = "MIT"
+  spec.metadata      = { "rubygems_mfa_required" => "true" }
 
   spec.required_ruby_version = ">= 3.2"
 
@@ -25,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency "textbringer", ">= 1.4"
-  spec.add_runtime_dependency "textbringer-minibuffer-extension", ">= 0.1.0"
+  spec.add_runtime_dependency "textbringer-minibuffer-extension", ">= 1"
 
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rake", ">= 12.0"
